@@ -1,0 +1,10 @@
+Take a hike
+Source: https://github.com/nagbharat92/take-a-hike
+Source commit: 01ab1a16e5d7707564e31ca61cc5be8421db4346
+Engine: Godot 4.7.2 stable official, single-threaded Web/Compatibility export.
+
+This is a finished playable game, not a redistributable asset pack.
+Artwork remains subject to its original publisher licenses.
+The source repository intentionally omits restricted loose artwork.
+Credits: pause with Escape, then choose Credits or press C.
+Original asset and engine notices are included beside this game.
