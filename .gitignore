@@ -1,0 +1,27 @@
+.godot/
+.DS_Store
+export.cfg
+export_credentials.cfg
+builds/
+downloads/
+# Source packs and restricted rvros derivatives stay private. Do not public-push.
+assets/vendor/*
+!assets/vendor/kenney/
+assets/vendor/kenney/*
+!assets/vendor/kenney/Spritesheet/
+assets/vendor/kenney/Spritesheet/*
+!assets/vendor/kenney/Spritesheet/UIpackSheet_transparent.png
+!assets/vendor/kenney/9-Slice/
+assets/vendor/kenney/9-Slice/*
+!assets/vendor/kenney/9-Slice/Ancient/
+assets/vendor/kenney/9-Slice/Ancient/*
+!assets/vendor/kenney/9-Slice/Ancient/grey.png
+!assets/vendor/kenney/9-Slice/Ancient/grey_pressed.png
+assets/hiker/
+assets/forest/
+docs/
+tests/scenery.gd
+tests/scenery.gd.uid
+tests/regeneration_performance.gd
+tests/regeneration_performance.gd.uid
+*.tmp

@@ -1,0 +1,53 @@
+Take a hike
+===========
+Play: https://nagbharat92.github.io/take-a-hike/
+Source: https://github.com/nagbharat92/take-a-hike
+
+A quiet procedural hiking game. No audio.
+A/D or arrows: walk. W/S or up/down: stairs.
+O: overview. T: replay. R: new hike. +/- or wheel: zoom.
+Esc: pause/resume. Credits are in the pause and overview panels (button or C).
+
+Source checkout and artwork
+--------------------------
+Requires Godot 4.7.2 stable and Python 3 with Pillow for asset preparation.
+This repository deliberately excludes restricted source artwork and derivatives.
+A fresh clone is NOT immediately playable without separately obtaining the packs.
+The hosted finished game includes its licensed artwork in the compiled game pack.
+Credits do not grant permission to redistribute the original or adapted assets.
+No claim is made that packaged web artwork cannot be extracted.
+
+Obtain from the original publishers, accepting their respective licenses:
+  Animated Pixel Adventurer, rvros:
+  https://rvros.itch.io/animated-pixel-hero
+  Put the Adventurer 1.5 and Hand Combat individual sprites together under
+  assets/vendor/rvros/Individual Sprites/ (including adventurer-walk-00.png
+  through -05.png and adventurer-idle-00.png through -03.png).
+
+  High Forest, Anokolisa:
+  https://anokolisa.itch.io/sidescroller-pixelart-sprites-asset-pack-forest-16x16
+  Extract so assets/vendor/forest/Legacy*/Trees/Green-Tree.png and
+  Legacy*/Assets/Tree-Assets.png exist.
+
+Run python3 tools/prepare_assets.py, then import/open project.godot in Godot.
+Only the CC0 UI spritesheet and two panel textures are included as loose artwork.
+See assets/licenses/SOURCES.txt and original notices for rights and credits.
+The original project code has no additional open-source license grant.
+Third-party code and assets retain their own licenses.
+
+Web publishing
+--------------
+Download the official Godot 4.7.2 stable export templates archive from:
+https://github.com/godotengine/godot/releases/tag/4.7.2-stable
+Extract templates/web_nothreads_release.zip to
+downloads/export_templates/web_nothreads_release.zip.
+From the project root:
+  mkdir -p builds/web
+  godot --headless --path . --export-release Web builds/web/index.html
+Use the installed Godot executable path if it is not named godot on PATH.
+The single-threaded Compatibility export does not require COOP/COEP headers.
+Serve only builds/web over HTTP for testing, never the project directory.
+Upload only the export files, legal notices and a .nojekyll file to gh-pages.
+GitHub Pages uses the root of gh-pages. Never put private artwork or notes on main.
+Rebuilding is local: GitHub cannot regenerate the game without the omitted packs.
+Do not replace gh-pages history or force-push when publishing subsequent builds.

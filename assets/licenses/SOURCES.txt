@@ -1,0 +1,51 @@
+Retrieved 2026-10-14 from original publishers. No payment, purchase or sign-in.
+
+Scatter2D, Alessandro Rasulo / HungryProton
+https://github.com/alex9978/scatter2d/tree/924e60a8f15181b509cb489850e57e2825c9543b
+MIT. Original copyright and full license retained in addons/scatter2d/LICENSE.md.
+Pinned v4 branch source; plugin.cfg declares 1.4, not assumed asset-listing 1.4.1.
+Runtime use: Create Along Edge (Even), domains, polygon shapes and transforms
+through scripts/hike_scatter.gd. Godot 4.7.2 getter-return compatibility patch
+and precise integration scope are recorded in addons/scatter2d/UPSTREAM.txt.
+No changes to the artwork terms below. Original MIT license remains included.
+
+High Forest, Anokolisa
+https://anokolisa.itch.io/sidescroller-pixelart-sprites-asset-pack-forest-16x16
+Free download labelled High Forest 2.0, archive contains High Forest 2.3.
+Original complete terms: Anokolisa-Terms.pdf, two pages, downloaded from:
+https://drive.google.com/file/d/17y1gjuwVirE8V79WcTL9tgTUtMu6R1je/view
+Custom license, NOT CC0. Commercial projects and modifications permitted.
+Do not sell the artwork as a final asset product. Terms also address author
+credits, tools for resale, and a saxophone-solo credit condition. Read original.
+Used: five tree silhouettes and foliage canopy. Palette mapped by source
+green/bark ramps, cropped, nearest-neighbor resampled, root-masked breeze.
+
+Animated Pixel Adventurer, rvros
+https://rvros.itch.io/animated-pixel-hero
+Downloaded Adventurer-1.5 and free Hand Combat supplement (contains Walk).
+Original publisher license text, read on the page:
+"You can do:
+- You can use this asset for personal and commercial purpose. Credit is not
+required but would be appreciated.
+- Modify to suit your needs.
+You cannot do:
+- Resell/redistribute this asset."
+Custom license, NOT CC0. Keep source/derived artwork local and private.
+Do not publish these raw assets or their loose derivatives. Distribution
+of a finished game is distinct from raw-asset redistribution; review the actual
+terms and export contents before any public release. The hosted web export is a
+finished game; this source repository omits both hiker and forest derivatives.
+Used: six Walk and four Idle poses, edited clothes/cape ramp, cropped torso,
+original hiking pack, depth views and terrain-retargeted legs/boots.
+Six authored walk poses are sampled into eight gait phases, not eight original
+rvros walk drawings. Wall Climb is NOT used as stair animation.
+
+Pixel UI Pack, Kenney Vleugels with Lynn Evers
+https://kenney.nl/assets/pixel-ui-pack
+CC0 1.0, full included publisher notice retained in Kenney-CC0.txt.
+Used: actual nine-slice panels/buttons and imported icons, muted palette.
+No claim that all free packs are CC0.
+
+Original project pixel terrain, backgrounds, backpack adaptations and supporting
+art remain original. No audio, cabin, weather or new gameplay system introduced.
+Rebuild adaptations: python3 tools/prepare_assets.py (existing Pillow).

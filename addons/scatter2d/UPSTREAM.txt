@@ -1,0 +1,32 @@
+Scatter2D, alex9978/scatter2d, v4 branch
+https://github.com/alex9978/scatter2d/tree/924e60a8f15181b509cb489850e57e2825c9543b
+Pinned commit: 924e60a8f15181b509cb489850e57e2825c9543b
+Retrieved 2026-10-14. Upstream plugin.cfg declares version 1.4.
+Asset library 4327 declares 1.4.1/Godot 4.1 and points to this exact commit:
+https://godotengine.org/asset-library/api/asset/4327
+The bundled plugin.cfg still declares 1.4; both facts are retained explicitly.
+
+Copyright HungryProton and Alessandro Rasulo. MIT; original LICENSE.md included.
+GitHub's archive omits root files, so LICENSE.md was fetched directly from
+the same pinned commit, not inferred from archive contents.
+Addon files retained; showcase demo and generated .import metadata omitted.
+No private project assets or code were uploaded.
+
+Single compatibility change for Godot 4.7.2:
+src/scatter2d.gd, _get(_property): replace pass with return null.
+The engine rejects the original virtual getter because not all paths return
+a value. No sampling, shape, transform, editor or rendering algorithms changed.
+
+Runtime consumer: res://scripts/hike_scatter.gd calls the original Create Along
+Edge (Even) modifier and original Domain/TransformList/Polygon resources.
+One persistent disabled-output Scatter2D node supplies its domain transform;
+the project's existing grounded sprite renderer consumes the returned transforms.
+No ScatterItem instancing, addon thread, particles or editor plugin is enabled.
+The editor interface and other modifiers are not claimed tested.
+
+Poisson evaluated but not used: upstream documents disconnected-domain and
+retry/cost limits. Its flat-grid indexing also uses grid_size.y as the stride.
+The hike uses narrow projected ground ribbons, so independent per-grove
+Curve2D edge sampling fits this geometry without a Poisson compatibility fork.
+Built-in FastNoiseLite varies the broad grove-domain widths; exact root support,
+rest exclusions, boot/stair clearance and canopy clearance remain authoritative.

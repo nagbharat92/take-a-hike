@@ -1,0 +1,9 @@
+{
+	"0": {"hash":"e77b09460cc49361d7844dfa38738696ca5cf6680791d40f466984ae5385e5a3","distance":8377.17614096403,"uphill":2793.0287322998,"downhill":33.2816619873047,"slope":90.0,"stairs":5,"points":2041,"terrain_version":8},
+	"1": {"hash":"7bca1e77e350991f3b64fe8d8e178c2a2f23949a642ce3c2838d560edf583247","distance":3945.34910479188,"uphill":811.77197265625,"downhill":0.0,"slope":90.0,"stairs":2,"points":923,"terrain_version":8},
+	"2": {"hash":"97aed18313beb7e97e617e8a60b9ffe03924025328536a4638fa2918e9d6e6e5","distance":6031.84833243489,"uphill":2019.23425292969,"downhill":0.0,"slope":90.0,"stairs":4,"points":1415,"terrain_version":8},
+	"3": {"hash":"147e768d578bbf9b1d1cfa2cfe1191d7aef125af359327c1a96abb246c48cadd","distance":3970.97741578519,"uphill":809.980682373047,"downhill":0.0,"slope":90.0,"stairs":2,"points":960,"terrain_version":8},
+	"8": {"hash":"950a650d15565e1ff37edc1381c80b8770ff16a54c40b92acfb66fb04b59956c","distance":8473.58547802269,"uphill":2708.51831054688,"downhill":21.989990234375,"slope":90.0,"stairs":5,"points":2068,"terrain_version":8},
+	"72": {"hash":"76dc1f5b3badd563c86991f85c7e9b1272cbcb3eaf68dcad688f27a9f514c4c9","distance":6504.64692103863,"uphill":2208.46447753906,"downhill":40.7276611328125,"slope":90.0,"stairs":4,"points":1599,"terrain_version":8},
+	"4294967295": {"hash":"a2a3ab7799689e148bc26951f1ed475595461cf7c0d22fe697550295601e8f55","distance":5751.14539079368,"uphill":1316.22543334961,"downhill":2.59133911132812,"slope":90.0,"stairs":3,"points":1324,"terrain_version":8}
+}
